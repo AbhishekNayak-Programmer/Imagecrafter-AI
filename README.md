@@ -19,9 +19,8 @@ The project is built using:
 
 ## 📁 Folder Structure
 
-root/
-├── client/ # React frontend
-└── server/ # Node.js backend (APIs + AI logic)
+- client/ # React frontend
+- server/ # Node.js backend (APIs + AI logic)
 
 ---
 
@@ -41,12 +40,12 @@ Ensure you have installed:
 
 Create a `.env` file **inside the `/server` folder**:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection
-OPENAI_API_KEY=your_openai_api_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+- PORT=5000
+- MONGO_URI=your_mongodb_connection
+- OPENAI_API_KEY=your_openai_api_key
+- CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+- CLOUDINARY_API_KEY=your_cloudinary_api_key
+- CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ---
 
@@ -74,3 +73,6 @@ cd ../client
 npm install
 npm run dev
 ```
+## 2️⃣ Output
+Open your default browser and see the web application running
+
